@@ -44,7 +44,8 @@
      
         
   Application of Adapter pattern:
-    - Monitoring
-    - Logging
+  
+    - Normalized Monitoring
+    - Normalized Logging
     - Request/Response Converter
 
