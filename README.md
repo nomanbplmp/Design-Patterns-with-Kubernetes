@@ -11,10 +11,10 @@
     
     Applications of side car pattern:
     
-      - Shipping application logs to External logging system
-      - Adding Https to a legacy http application
-      - Adding Dynamic configuration to Application
-      - Creating Platform as a service 
+     - Shipping application logs to External logging system
+     - Adding Https to a legacy http application
+     - Adding Dynamic configuration to Application
+     - Creating Platform as a service 
 
 2. **Amabassador Pattern**
 
@@ -30,9 +30,9 @@
     
     Application of Ambassador pattern:
       
-      - Creating Sharding service
-      - System to perform Service Discovery
-      - Request Splitting
+     - Creating Sharding service
+     - System to perform Service Discovery
+     - Request Splitting
      
 3. **Adapter Pattern**
   In the adapter pattern, the
@@ -41,11 +41,10 @@
   ple, an adapter might ensure that an application implements a consistent monitoring
   interface. Or it might ensure that log files are always written to stdout or any number
   of other conventions.
-     
         
   Application of Adapter pattern:
   
-    - Normalized Monitoring
-    - Normalized Logging
-    - Request/Response Converter
+   - Normalized Monitoring
+   - Normalized Logging
+   - Inbout/Outbound message Converter
 
