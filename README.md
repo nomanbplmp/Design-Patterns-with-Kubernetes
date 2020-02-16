@@ -35,16 +35,27 @@
      - Request Splitting
      
 3. **Adapter Pattern**
-  In the adapter pattern, the
-  adapter container is used to modify the interface of the application container so that it
-  conforms to some predefined interface that is expected of all applications. For exam‐
-  ple, an adapter might ensure that an application implements a consistent monitoring
-  interface. Or it might ensure that log files are always written to stdout or any number
-  of other conventions.
-        
-  Application of Adapter pattern:
-  
-   - Normalized Monitoring
-   - Normalized Logging
-   - Inbout/Outbound message Converter
 
+      In the adapter pattern, the
+      adapter container is used to modify the interface of the application container so that it
+      conforms to some predefined interface that is expected of all applications. For exam‐
+      ple, an adapter might ensure that an application implements a consistent monitoring
+      interface. Or it might ensure that log files are always written to stdout or any number
+      of other conventions.
+        
+      Application of Adapter pattern:
+  
+    - Normalized Monitoring
+    - Normalized Logging
+    - Inbout/Outbound message Converter
+    
+   
+ 4. **Serving Pattern**
+      
+      Kubernetes conatiner providing specialized services to other services in cluster. 
+      
+       Application:
+      - Stateless or statefull microservice 
+      - Shareded caching
+      - Ssl termination 
+      - Leader election
