@@ -41,8 +41,10 @@
   ple, an adapter might ensure that an application implements a consistent monitoring
   interface. Or it might ensure that log files are always written to stdout or any number
   of other conventions.
-  
+     
+        
   Application of Adapter pattern:
-  
-  -
+    - Monitoring
+    - Logging
+    - Request/Response Converter
 
